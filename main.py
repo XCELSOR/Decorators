@@ -17,6 +17,10 @@ def multiple():
 
 def speedTest(func):
 
+    def decor(func):
+
+
+
     import time
 
     def wrapper():
